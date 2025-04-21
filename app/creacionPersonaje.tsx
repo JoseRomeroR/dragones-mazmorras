@@ -139,7 +139,7 @@ export default function CreacionPersonaje() {
         <Text style={styles.label}>Nombre del personaje</Text>
         <TextInput
           style={styles.input}
-          placeholder="Ej: Tharion"
+          placeholder="Tharion"
           value={personaje.nombre}
           onChangeText={(text) => handleChange("nombre", text)}
         />
@@ -150,7 +150,7 @@ export default function CreacionPersonaje() {
           <Text style={styles.label}>Clase y Nivel</Text>
           <TextInput
             style={styles.input}
-            placeholder="Ej: Guerrero 3"
+            placeholder="Guerrero 3"
             value={personaje.claseNivel}
             onChangeText={(text) => handleChange("claseNivel", text)}
           />
@@ -160,7 +160,7 @@ export default function CreacionPersonaje() {
           <Text style={styles.label}>Trasfondo</Text>
           <TextInput
             style={styles.input}
-            placeholder="Ej: Noble"
+            placeholder="Noble"
             value={personaje.trasfondo}
             onChangeText={(text) => handleChange("trasfondo", text)}
           />
@@ -182,7 +182,7 @@ export default function CreacionPersonaje() {
           <Text style={styles.label}>Raza</Text>
           <TextInput
             style={styles.input}
-            placeholder="Ej: Elfo"
+            placeholder="Elfo"
             value={personaje.raza}
             onChangeText={(text) => handleChange("raza", text)}
           />
@@ -194,7 +194,7 @@ export default function CreacionPersonaje() {
           <Text style={styles.label}>Alineamiento</Text>
           <TextInput
             style={styles.input}
-            placeholder="Ej: Legal bueno"
+            placeholder="Legal bueno"
             value={personaje.alineamiento}
             onChangeText={(text) => handleChange("alineamiento", text)}
           />
@@ -204,7 +204,7 @@ export default function CreacionPersonaje() {
           <Text style={styles.label}>XP</Text>
           <TextInput
             style={styles.input}
-            placeholder="Ej: 1200"
+            placeholder="1200"
             keyboardType="numeric"
             value={personaje.experiencia}
             onChangeText={(text) => handleChange("experiencia", text)}
